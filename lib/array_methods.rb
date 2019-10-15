@@ -36,7 +36,9 @@ def find_min_value(array)
     else min_val = min_val
     end
     counter += 1
-  end  
+  end 
+  puts min_val
+  return min_val
 end
 
 find_min_value([9999, 1972, 9999999999999999, 1])
