@@ -11,9 +11,6 @@ def find_element_index(array, value_to_find)
   end
 end
 
-find_element_index([1,2,3,4,5], 6)
-
-
 
 def find_max_value(array)
   counter = 0
@@ -29,7 +26,9 @@ def find_max_value(array)
  return max_num
 end
 
-find_max_value([1,5,3,2,2])
+
+def find_min_value(array)
+  
 
 
 #maxNum defined as the first element in list
