@@ -1,11 +1,32 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  counter = 0
+  length = array.length
+  
+  while counter < length
+    if array[counter] === value_to_find
+      puts counter
+      return counter
+    else counter += 1
+    end
+  end
 end
+
+find_element_index([1,2,3,4,5], 6)
+
+
 
 def find_max_value(array)
-  # Add your solution here
+  counter = 0
+  next_num = 1
+  while counter < array.length
+    if array[counter] > array[next_num]
+    max_num = array[counter]
+  else max_num = max_num 
+  end
+  counter +=1
+ end
+ puts max_num
+ return max_num
 end
 
-def find_min_value(array)
-  # Add your solution here
-end
+find_max_value([1,5,3,2,2])
