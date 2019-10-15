@@ -30,3 +30,6 @@ def find_max_value(array)
 end
 
 find_max_value([1,5,3,2,2])
+
+#maxNum = maxNum = 
+#maxNUM = maxNUM unless maxNUM <= array[index]
