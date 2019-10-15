@@ -23,7 +23,7 @@ def find_max_value(array)
       max_num = array[counter]
     else max_num = max_num
   end
-  count += 1
+  counter += 1
  end
  puts max_num
  return max_num
