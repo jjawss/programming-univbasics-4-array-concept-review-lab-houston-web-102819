@@ -31,5 +31,9 @@ end
 
 find_max_value([1,5,3,2,2])
 
-#maxNum = maxNum = 
-#maxNUM = maxNUM unless maxNUM <= array[index]
+
+#maxNum defined as the first element in list
+#maxNum = array[0]
+#loop through array and test whether the element is bigger than the current maxNum
+#maxNum = maxNum unless maxNum <= array[index]
+#return the maxNum
