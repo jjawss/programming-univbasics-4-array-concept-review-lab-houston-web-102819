@@ -17,11 +17,10 @@ find_element_index([1,2,3,4,5], 6)
 
 def find_max_value(array)
   counter = 0
-  next_num = 1
+  max_num = array[0]
   while counter < array.length
-    if array[counter] > array[next_num]
+    if max_num > array[counter]
     max_num = array[counter]
-  else max_num = max_num 
   end
   counter +=1
  end
