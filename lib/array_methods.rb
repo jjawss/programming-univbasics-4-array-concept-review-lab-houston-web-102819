@@ -28,9 +28,16 @@ end
 
 
 def find_min_value(array)
-  
-
-
+  counter = 0 
+  min_val = array[0]
+  while counter < array.length
+    if min_val > array[counter]
+      min_val = array[counter]
+    else min_val = min_val
+    end
+    counter += 1
+  end  
+end
 #maxNum defined as the first element in list
 #maxNum = array[0]
 #loop through array and test whether the element is bigger than the current maxNum
